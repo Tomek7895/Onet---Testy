@@ -194,3 +194,47 @@ a
     font-weight: 700;
     color: black;
 }
+
+.animate {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+    }
+    
+    to {
+        transform: translateX(0);
+    }
+}
+
+.from_left {
+    animation: slideInLeft 1s ease-in 0.5s 1 normal both;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+    
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.naglowek
+{
+    transition: all 0.2s ease-out;
+/*    animation: rotate 1s linear 0s 1 normal both;*/
+}
+
+.naglowek:hover
+{
+    color: yellow;
+    animation: rotate 1s linear 0s 1 normal both;
+/*    animation: slideInLeft 1s linear 0s 1 normal both;*/
+    
+}
