@@ -1,0 +1,169 @@
+*
+{
+    font-family: sans-serif;
+}
+ ul
+{
+    list-style-type: none;
+}
+#naglowek
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    overflow: hidden;
+    background-image: linear-gradient(to right bottom, #9988ff, #99ff99);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    flex-grow: 1;
+}
+
+#mainmenu
+{
+/*    border: 5px solid grey;*/
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lista
+{
+/*    width: 300px;*/
+    height: 50px;
+/*    border: 5px solid red;*/
+/*    background-color: bisque;*/
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    transition: all 0.2s ease-out;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+/*    flex-basis: 300px;*/
+    flex-grow: 1;
+/*    flex-shrink: 1;  */
+    font-weight: 800;
+}
+
+div > a
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista:hover
+{
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.7);
+    opacity: 80%;
+    font-size: 150%;
+}
+
+#wiadomosci
+{
+    background-image: url(images/3.JPG);
+}
+#testy
+{
+    background-image: url(images/4.JPG);
+}
+#sport
+{
+    background-image: url(images/5.JPG);
+}
+#biznes
+{
+    background-image: url(images/10.JPG);
+}
+#pogoda
+{
+    background-image: url(images/11.JPG);
+}
+#nieruchomosci
+{
+    background-image: url(images/12.JPG);
+}
+#regionalne
+{
+    background-image: url(images/13.JPG);
+}
+
+.menu
+{
+    color: black;
+    text-decoration: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1000px)
+{
+    #mainmenu
+    {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 20%;
+    }
+}
+
+#mainpage
+{
+    border: 1px solid grey;
+    background-color: #eee;
+    margin: 20px;
+    height: 600px;
+    width: 70%;
+    display: flex;
+/*    grid-template-columns: repeat(2, 1fr 2fr);*/
+/*    grid-template-rows: 150px 250px;*/
+    grid-gap: 20px;
+/*    justify-items:flex-start;*/
+    align-items: flex-start;
+/*    align-content: flex-start;*/
+    justify-content: flex-start;
+}
+
+.article
+{
+/*    border: 2px solid red;*/
+    height: auto;
+    width: 30%;
+/*    width: 200px;*/
+    min-height: 150px;
+/*    background-color: bisque;*/
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainarticle
+{   
+    width: 70%;
+    border: 5px solid blue
+    
+    
+}
+
+.zdj
+{
+    width: 100%;
+    height: 350px;
+    
+}
+
+.podpis
+{
+    width: 300px;
+/*    width: 100%*/
+    text-align: center;
+    font-size: 100%;
+    font-weight: 700;
+    color: black;
+}

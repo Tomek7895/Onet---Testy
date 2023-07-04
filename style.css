@@ -1,0 +1,372 @@
+*
+{
+    font-family: sans-serif;
+}
+
+h1
+{
+    color: yellowgreen;
+}
+
+#test
+{
+    font-size: 25px;
+    display: block;
+    color: brown;
+    margin-top: 10px;
+}
+
+#test1
+{
+    margin-top: 15px;
+}
+
+.b
+{
+    font-weight: 700;
+}
+
+.i
+{
+    font-style: italic;
+}
+
+.u
+{
+    text-decoration: underline;
+}
+
+li
+{
+    display: inline;
+    padding: 10px 40px;
+    background-color: aliceblue;
+    font-weight: 800;
+/*
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+*/
+/*
+    margin-right: 20px;
+    margin-left: 40px;
+*/
+}
+
+#wiadomosci
+{
+    background-image: url(images/3.JPG);
+    color: black;
+}
+
+#testy
+{
+    background-image: url(images/4.JPG);
+    color: black;
+}
+
+#sport
+{
+    background-image: url(images/5.JPG);
+    color: black;
+}
+#biznes
+{
+    background-image: url(images/10.JPG);
+    color: black;
+}
+#pogoda
+{
+    background-image: url(images/11.JPG);
+    color: black;
+}
+#nieruchomosci
+{
+    background-image: url(images/12.JPG);
+    color: black;
+}
+#regionalnie
+{
+    background-image: url(images/13.JPG);
+    color: black;
+}
+ul
+{
+    text-align: center;
+    border-top: 2px dashed red;
+/*    padding-top: 10px;*/
+    border-bottom: 2px dashed red;
+/*    padding-bottom: 9px;*/
+/*    height: 50px*/
+/*    font-size: 30px;*/
+/*    background-color: blue;*/
+}
+
+a
+{
+    color: blueviolet;
+    text-decoration: none;
+    transition: all 0.5s;
+    transition-timing-function: ease-out;
+    
+    
+}
+
+a:visited
+{
+    color:gray;
+}
+
+body > div > ul > a:hover
+{
+    text-decoration: underline;
+    color: deepskyblue;
+    font-size: 150%;
+    cursor: pointer;
+}
+
+.obraz
+{
+    width: 1000px;
+    margin-top: 20px;
+    border-radius: 25px;
+/*    margin-left: 200px;*/
+    
+}
+
+#obramowanie
+{
+    /*background-color: green;*/
+    display: inline-block;
+    margin-left: 250px;
+/*    background-color: pink*/
+}
+
+#podpis
+{
+    font-size: 200%;
+    text-align: center
+}
+
+body
+{
+    background-image: url(images/tlo.jpg);
+    background-size: cover;
+    
+}
+
+#mainmenu
+{
+    border: 5px solid grey;
+    background-color: #eee;
+/*    display: flex;*/
+/*
+    justify-content: flex-start;
+    align-items: stretch;
+*/
+    
+/*
+    margin-left: auto;
+    margin-right: auto;
+*/
+/*
+    height: 100px;
+    border: 3px solid blue;
+*/
+/*    font-size: 0;*/
+/*    background-color: red;*/
+}
+
+#naglowek
+{
+    font-size: 200%;
+    font-weight: 700;
+    display: block;
+/*
+    background-color: red;
+    border: 2px solid yellow;
+*/
+    padding-bottom: 20px;
+/*    color: yellowgreen;*/
+}
+
+#o
+{
+    color: yellow;
+/*    font-size: 200%;*/
+/*    font-weight: 700;*/
+}
+
+#glownyart
+{
+/*    padding-top: 50px;*/
+    display:inline-block;
+/*    background-color: red;*/
+    height: 250px;
+/*    width: 70%;*/
+/*    border: 2px solid red;*/
+}
+
+.zdj
+{
+    height: 250px;
+/*    width: 100%;*/
+}
+
+#tekst1
+{
+/*    background-color: yellow;*/
+    font-size: 150%;
+    font-weight: 800;
+    display: inline;
+    font-style: italic
+}
+
+#obramowkatekst1
+{
+    width: 470px;
+    height: 70px;
+/*    border: 2px solid red;*/
+    background-color: yellow;
+}
+
+#mainpage
+{
+    display: inline-block;
+/*    border: 2px solid gray;*/
+    width: 1000px;
+    height: 500px;
+    font-size: 0;
+    
+    
+}
+
+.side1
+{
+    display: inline-block;
+/*    border: 2px solid green;*/
+    vertical-align: top;
+    margin-left: 10px;
+    width: 30%;
+    font-size: 15px;
+}
+
+.side2
+{
+    display: inline-block;
+/*    border: 2px solid green;*/
+    vertical-align: top;
+    margin-top: 10px;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 15px;
+}
+
+.zdj1
+{
+    height: 150px;
+    width: 300px;
+/*    width: 100%;*/
+/*
+    padding-bottom: 100px;
+    padding-left: 30px;
+*/
+}
+
+.zdj7
+{
+    width: 100%;
+
+}
+
+.podpis
+{
+    width: 300px;
+/*    width: 100%*/
+    text-align: center;
+    font-size: 100%;
+    font-weight: 700;
+    color: black;
+}
+
+#bocznemenu
+{
+    display: inline-block;
+    border: 2px solid gray;
+    width: 300px;
+    height: 500px;
+    margin-left: 50px;
+    vertical-align: top;
+/*    float: right;*/
+}
+
+#art2
+{
+/*    display: inline-block;*/
+/*
+    width: 300px;
+    height: 100px;
+*/
+/*    border: 2px solid brown;*/
+}
+
+.zdj2
+{
+    height: 75px;
+    
+}
+#podpis2
+{
+    vertical-align: top;
+    height: 75px;
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    font-size: 100%;
+    font-weight: 700;
+    color: black;
+}
+
+#art3
+{
+    margin-top: 10px;
+}
+
+#naglowek:hover
+{
+    color: blue;
+    font-size: 230%;
+    cursor: pointer;
+    transform: rotate(5deg) translate(50px) skewX(-20deg);
+}
+
+#naglowek::after
+{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0px;
+    background-color: blue;
+}
+
+#a:hover::after
+{
+    width: 150px;
+}
+
+#stopka
+{
+/*    background-color: red;*/
+    text-align: center;
+/*    font-size: 150%;*/
+    font-weight: 500;
+    
+}
+
+/*
+#menu
+{
+    border: 5px solid grey;
+    background-color: #eee;
+    display: flex;
+}*/
